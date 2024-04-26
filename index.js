@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const imdbLogo = document.querySelector('.img');
-    imdbLogo.addEventListener('click', function() {
-        window.location.href = 'https://en.wikipedia.org/wiki/IMDb'; // Redirect to IMDb Wikipedia page
-    });
+    // const imdbLogo = document.querySelector('.img');
+    // imdbLogo.addEventListener('click', function() {
+    //     window.location.href = 'https://en.wikipedia.org/wiki/IMDb'; // Redirect to IMDb Wikipedia page
+    // });
 
     const API_KEY = 'api_key=953b816f9380321d183fee98f692c7d6';
     const IMG_URL = 'https://image.tmdb.org/t/p/w500/';
