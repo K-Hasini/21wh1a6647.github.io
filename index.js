@@ -77,6 +77,8 @@ document.addEventListener('DOMContentLoaded', function() {
             // Append the link containing movie information to the container
             movie_container.appendChild(movieLink);
             container.appendChild(movie_container);
+            console.log(movie)
+            console.log(vote_average);
         });
     }
 });
